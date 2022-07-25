@@ -1,0 +1,34 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.buttonsWrapper{
+  display: flex;
+  max-width: 1000px;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+h2{
+  font-size: 2rem;
+}
+#totalMinutes{
+  text-align: center;
+  font-size: 5rem;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

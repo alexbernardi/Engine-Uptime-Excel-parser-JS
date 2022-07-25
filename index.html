@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="buttonsWrapper">
+			<input class="fileupload" type="file" id="fileUpload" />
+			<input class="button" type="button" id="upload" value="Calculate Amount of Time" onclick="UploadProcess()" />
+		</div>
+		<h2>Amount of time with transmission gear above 0 and engine speed above 800 rpm</h2>
+		<h2 id="totalMinutes"></h2>
+		
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.13.5/xlsx.full.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.13.5/jszip.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
